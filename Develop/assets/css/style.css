@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* Specifies how dimension attributes will bahave  and that there wont be padding or margin space unless specified by a class or ID. */
 
 body {
     background-color: #d9dcd6;
 }
+/* Gives the website a base of white background color, this is given the least priority in formatting when  */
 
 .header {
     padding: 20px;
@@ -14,15 +16,18 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* The class for header sections, providing some space, font specifications, aqua background color, and white text font. */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* Format class for the first header specifically. Displays the word horizontally inline while maintaining its height and width. */
 
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Class that gives three letters in the header a very light green color. Allows formatting changes inside another formatting class. */
 
 .header div {
     padding-top: 15px;
@@ -31,24 +36,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* Class which provides space above and to the right. Provides a family of fonts to change to, with Gill Sans being the highest priority if available. Changes the size of the font. */
 
 .header div ul {
     list-style-type: none;
 }
+/* Class that provides default style. */
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Class that displays contents inline in a row while maintaining their margins and padding. Space is also added to the left margin.*/
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Gives a white font color. Also specifies font decorations are not being applied.*/
 
 p {
     font-size: 16px;
 }
+/* Gives the paragraph text a small font size of 16 pixels. */
 
 .hero {
     height: 800px;
@@ -58,22 +68,26 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Class that specifies the size of the main image and provides a small margin below. Provides a link to the source of the image of the marketing team. Centers the image and  */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/* Positions the box to the left of the page while adding a small space from the left side of the page. */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
+/* Positions the box to the right of the page while keeping a small space from the right side of the pafe. */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Separates the three modules from the 'Benefits' modules and stacks them on top of eachother, while providing a small space from the left side of the page. */
 
 .benefits {
     margin-right: 20px;
@@ -85,54 +99,64 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* Class that makes the smaller modules stick to the right side of the page in a vertical column. Provides a small margin from the right side of the page and specifies the fonts that will be used, if available, in cascading order. Specifies the background color as light blue. */
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* Class that specifies the font color as white and a margin space beneath. */
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* Class that specifies the font color as white and a margin space beneath.  */
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* Class that specifies the font color as white and a margin space beneath. */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Class that specifies a small margin from the image below the text, and aligns the text to be in the center of the block. */
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Class that specifies a small margin from the image below the text, and aligns the text to be in the center of the block. */
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Class that specifies a small margin from the image below the text, and aligns the text to be in the center of the block. */
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Class that specifies the centered position of the image. Also provides a small margin thickness and maximum width the image will constrain to. */
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Class that specifies the centered position of the image. Also provides a small margin thickness and maximum width the image will constrain to. */
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Class that specifies the centered position of the image. Also provides a small margin thickness and maximum width the image will constrain to. */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -142,6 +166,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* Class that provides a small margin below the block and 50 pixels of padding around. Stretches the block to 300 pixels high and gives the style of fonts in cascading priority. Gives a light-blue background color and white font color. */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -151,6 +176,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* Class that provides a small margin below the block and 50 pixels of padding around. Stretches the block to 300 pixels high and gives the style of fonts in cascading priority. Gives a light-blue background color and white font color. */
 
 .social-media-marketing {
     margin-bottom: 20px;
@@ -160,33 +186,40 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* Class that provides a small margin below the block and 50 pixels of padding around. Stretches the block to 300 pixels high and gives the style of fonts in cascading priority. Gives a light-blue background color and white font color. */
 
 .search-engine-optimization img {
     max-height: 200px;
 }
+/* Class that specifies the height constraints for the image at 200 pixels. */
 
 .online-reputation-management img {
     max-height: 200px;
 }
+/* Class that specifies the height constraints for the image at 200 pixels. */
 
 .social-media-marketing img {
     max-height: 200px;
 }
+/* Class that specifies the height constraints for the image at 200 pixels. */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Class that specifies a small margin below the text and gives it a larger font at 36 pixels. */
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Class that specifies a small margin below the text and gives it a larger font at 36 pixels. */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Class that specifies a small margin below the text and gives it a larger font at 36 pixels. */
 
 .footer {
     padding: 30px;
@@ -194,7 +227,9 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* Class that gives 30 pixels of padding around the enire footer. Indicates that both sides will not be adjacent to other blocks. Specifies the fonts in cascading priority based on what a user's computer provides. Centers the text. */
 
 .footer h2 {
     font-size: 20px;
 }
+/* Class for the header of the footer, specifying the font at 20 pixels. */
